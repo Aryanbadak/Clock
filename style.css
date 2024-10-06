@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #F1EFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #CCC8AA;
+
+}
+
+.search-bar {
+    height: 40px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 2px solid #CCC8AA;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#button {
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 2px solid #CCC8AA;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(179, 178, 178);
+    background-color: white;
+
+}
+
+#button:hover {
+    background-color: #CCC8AA;
+    color: #0f1111;
+}
+
+.clock-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.main-clock {
+    height: 300px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCC8AA;
+}
+
+#time {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.para {
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.button {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #191717;
+    color: #F1EFEF;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
